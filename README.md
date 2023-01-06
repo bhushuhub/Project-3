@@ -1,1 +1,1 @@
-Clone webapp.git on the nodes of two-different environment and make package over the nodes's only, by using MAVEN tool And Deploy the .war files over tomcat-webserver of both "qa" & "dev" environments using a Pipeline-Job.
+Clone webapp.git on the nodes of two-different environment and make package over the node's only, by using MAVEN tool And Deploy the .war files over tomcat-webserver of both "qa" & "dev" environments using a Pipeline-Job.
