@@ -1,15 +1,1 @@
-This is a sample Web Application to use during Continuous Integration demos.
-
-#Build Instruction
-
-```
-mvn3 clean package
-```
-
-#Deploy instruction
-
-Deploy ```target/WebApp.war``` on Tomcat
- 
-#TODO
- 
-Add instruction to deploy to ElasticBeanstalk
+Clone webapp.git on the nodes of two-different environment and make package over the nodes's only, by using MAVEN tool And Deploy the .war files over tomcat-webserver of both "qa" & "dev" environments using a Pipeline-Job.
